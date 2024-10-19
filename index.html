@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify : Web player - Music for everyone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Assects/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Ubuntu:wght@300&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="https://open.spotify.com/search" target="_main">Search</a>
+          </div>
+        </div>
+        <div class="liberary">
+          <div class="options">
+            <div class="liberary-opt nav-option">
+              <img src="Assects/library_icon.png" />
+              <a href="#">Liberary</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy, we'll help you</p>
+              <a
+                href="https://open.spotify.com/playlist/5naoug5dZ1Cp3Iqs6mVpbo"
+                target="_main"
+                ><button class="badge">Create playlist</button></a
+              >
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+              <a
+                href="https://open.spotify.com/genre/podcasts-web"
+                target="_main"
+                ><button class="badge">Browse podcasts</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="sticky-nav">
+          <div class="sticky-for-back">
+            <i class="fa-solid fa-chevron-left background for-back"></i>
+            <i class="fa-solid fa-chevron-right background hidden for-back"></i>
+          </div>
+          <div class="sticky-nav-opt">
+            <a
+              href="https://www.spotify.com/in-en/premium/?utm_source=app&utm_medium=desktop&utm_campaign=upgrade&ref=web_loggedin_upgrade_button"
+              target="_main"
+              ><button class="badge hidden nav-item">Explore premium</button></a
+            >
+            <a href="https://open.spotify.com/download" target="_main"
+              ><button class="badge dark-icon nav-item">
+                <i class="fa-regular fa-circle-down download"></i>Install App
+              </button></a
+            >
+            <a href="https://open.spotify.com/content-feed" target="_main"
+              ><i class="fa-regular fa-bell background nav-item"></i
+            ></a>
+            <i class="fa-regular fa-user background nav-item"></i>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="title">
+            <h2>Spotify original & exclusive shows</h2>
+            <p class="faint" id="shows">Show all</p>
+          </div>
+          <div class="collection">
+            <div class="card">
+              <img src="images/card01.jpeg" />
+              <p id="bold">True Story Bro! w....</p>
+              <p class="faint">Spotify</p>
+            </div>
+            <div class="card">
+              <img src="images/card02.jpeg" />
+              <p id="bold">The Horror Show B..</p>
+              <p class="faint">TMV Studios</p>
+            </div>
+            <div class="card">
+              <img src="images/card03.jpeg" />
+              <p id="bold">Shri Krishna Leela...</p>
+              <p class="faint">Spotify Studios</p>
+            </div>
+            <div class="card">
+              <img src="images/card04.jpeg" />
+              <p id="bold">Aa Modati Alajadi</p>
+              <p class="faint">Spotify</p>
+            </div>
+            <div class="card">
+              <img src="images/card05.jpeg" />
+              <p id="bold">Best Love Stories</p>
+              <p class="faint">Spotify Studios</p>
+            </div>
+          </div>
+          <br />
+          <div class="title">
+            <h2>Try something else</h2>
+            <p class="faint" id="shows">Show all</p>
+          </div>
+          <div class="collection">
+            <div class="card">
+              <img src="images/card06.jpeg" />
+              <p id="bold">Hot Hits Hindi</p>
+              <p class="faint">Hottest Hindi music served here. Cover -...</p>
+            </div>
+            <div class="card">
+              <img src="images/card07.jpeg" />
+              <p id="bold">OO's Love Hits</p>
+              <p class="faint">
+                Fall in love with OO's Bollywood like never...
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/card08.jpeg" />
+              <p id="bold">All Out OO's Hindi</p>
+              <p class="faint">
+                Bollywood songs that ruled hearts in the Y2K...
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/card09.jpeg" />
+              <p id="bold">Pop Shots</p>
+              <p class="faint">All your pop favorites! Cover: Alec Benjamin</p>
+            </div>
+          </div>
+          <br />
+          <div class="title">
+            <h2>Featured Charts</h2>
+            <p class="faint" id="shows">Show all</p>
+          </div>
+          <div class="collection">
+            <div class="card">
+              <img src="images/card10.jpg" />
+              <p id="bold">Top Songs - Global</p>
+              <p class="faint">
+                Your weekly update of the most played tracks...
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/card11.jpg" />
+              <p id="bold">Top Songs - India</p>
+              <p class="faint">
+                Your weekly update of the most played tracks...
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/card12.jpg" />
+              <p id="bold">Top 50 - Global</p>
+              <p class="faint">
+                Your daily update of the most played tracks rig...
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/card13.jpg" />
+              <p id="bold">Top 50 - India</p>
+              <p class="faint">
+                Your daily update of the most played tracks rig...
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/card14.jpg" />
+              <p id="bold">Viral 50 - Global</p>
+              <p class="faint">
+                Your daily update of the most viral tracks right now...
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="footer"></div>
+        </footer>
+      </div>
+      <div class="music-player">
+        <div class="album">
+          <img src="Assects/" style="height: 3.5rem; padding: 0.5rem" />
+          <div class="album-para">
+            <p style="font-weight: 550; font-size: 0.9rem; margin-bottom: 5px">
+              Toolbox Killers - Halloween Murderers I Hindi
+            </p>
+            <p style="opacity: 0.8; font-size: 0.6rem; margin-top: 8px">
+              The Horror Show by Khooni Monday - Scary Stories in Hindi
+            </p>
+          </div>
+        </div>
+        <div class="player">
+          <div class="player-group">
+            <img src="Assects/player_icon1.png" class="player-icons" />
+            <img src="Assects/player_icon2.png" class="player-icons" />
+            <a
+              href="https://open.spotify.com/show/2vhxApfLLtI8yCd7hqPokR"
+              target="_main"
+              ><img
+                src="Assects/player_icon3.png"
+                class="player-icons"
+                id="play-button"
+            /></a>
+            <img src="Assects/player_icon4.png" class="player-icons" />
+            <img src="Assects/player_icon5.png" class="player-icons" />
+          </div>
+          <div class="progress">
+            <span class="currtime">00:01</span>
+            <input
+              type="range"
+              min="0"
+              max="200"
+              name="time"
+              step="1"
+              value="5"
+              class="range-bar"
+            />
+            <span class="totime">03:45</span>
+          </div>
+        </div>
+        <div class="controls">
+          <img
+            src="Assects/controls_icon1.png"
+            class="control-icons"
+            style="height: 2.3rem"
+          />
+          <img
+            src="Assects/controls_icon2.png"
+            class="control-icons"
+            style="height: 1.3rem"
+          />
+          <img
+            src="Assects/controls_icon3.png"
+            class="control-icons"
+            style="height: 1rem"
+          />
+          <img
+            src="Assects/controls_icon4.png"
+            class="control-icons"
+            style="height: 2.5rem"
+          />
+          <input
+            type="range"
+            min="0"
+            max="100"
+            step="1"
+            name="Volume"
+            value="20"
+            style="appearance: none; height: 0.4vh; width: 10vh"
+          />
+          <img
+            src="Assects/controls_icon5.png"
+            class="control-icons"
+            style="height: 2.3rem; margin-left: 0.5rem"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
